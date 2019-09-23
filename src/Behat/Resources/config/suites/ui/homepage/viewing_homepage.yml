@@ -1,0 +1,11 @@
+# This file is part of the UsefulForDev package
+# (c) Hoan Van
+
+default:
+  suites:
+    ui_homepage:
+      contexts:
+        - App\Behat\Context\Ui\Front\HomePageContext
+
+      filters:
+        tags: "@homepage && @ui"

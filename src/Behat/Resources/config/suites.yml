@@ -1,0 +1,4 @@
+# Hoan Van
+
+imports:
+  - suites/ui/homepage/viewing_homepage.yml
